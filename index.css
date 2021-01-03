@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    height: 20vh;
+}
+.top_title{
+    font-size: 2em;
+}
+.edit_delete{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+tr{
+    height: calc(70vh/4);
+}
+td{
+    width: calc(80vw/4);
+}
+fieldset{
+    height: calc(70vh/4);
+    width: calc(80vw/4);
+    padding: 0%;
+    margin: 0%;
+    /* overflow: scroll; */
+}
+h1{
+    font-size: 1em;
+    background-color: white;
+}
+
+/* team */
+.sanix{
+    background-color: skyblue;
+}
+.yamaha{
+    background-color: royalblue;
+}
+.kobe{
+    background-color: tomato;
+}
+.toyota{
+    background-color: seagreen;
+}
+.NTT{
+    background-color: navy;
+}
+.NEC{
+    background-color: springgreen;
+}
+.toshiba{
+    background-color: crimson;
+}
+.pana{
+    background-color: blue;
+}
+.richo{
+    background-color: black;
+}
+.kubota{
+    background-color: orange;
+}
+.santory{
+    background-color: yellow;
+}
+.jyuukou{
+    background-color: teal;
+}
+.honda{
+    background-color: firebrick;
+}
+.docomo{
+    background-color: darkred;
+}
+.canon{
+    background-color: firebrick;
+}
+.hino{
+    background-color: indianred;
+}
